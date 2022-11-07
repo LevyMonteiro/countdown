@@ -1,5 +1,6 @@
 import {notifyer} from "./notifyer.js"
 import {timer} from "./timer.js"
+import {emitter} from "./emitter.js"
 
 const app = {
     async start() {

@@ -6,12 +6,12 @@ const emitter = {
         emitter.events[event].push(cb)
     },
 
-    emit(event) {
+    emit(event, ...rest) {
         if(event in emitter.events === false)
         return;
         
         emitter.events[event].forEach((e) => {
-            e()
+            e(...rest)
         })
     }
 }

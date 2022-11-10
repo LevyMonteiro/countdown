@@ -1,0 +1,23 @@
+{
+  "name": "countdown",
+  "version": "1.0.0",
+  "description": "- This is an CountDown page with a pomodoro timer to send a notification when was time to take a break in the study.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LevyMonteiro/countdown.git"
+  },
+  "keywords": [],
+  "author": "Levy Monteiro",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LevyMonteiro/countdown/issues"
+  },
+  "homepage": "https://github.com/LevyMonteiro/countdown#readme",
+  "devDependencies": {
+    "electron": "^21.2.3"
+  }
+}

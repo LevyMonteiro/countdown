@@ -14,6 +14,10 @@ const app = {
                 })
             })
 
+            emitter.on('countdown-end', () => {
+                timer.init()
+            })
+
             timer.init()
 
         }   catch (error) {

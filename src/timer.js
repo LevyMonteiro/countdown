@@ -31,6 +31,7 @@ const timer = {
         })
 
         if (timer.currentTime === 0) {
+            emitter.emit('countdown-end')
             clearInterval(timer.interval)
             return;
         }

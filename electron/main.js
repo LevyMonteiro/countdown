@@ -1,10 +1,13 @@
 const {app} = require('electron')
+const controlWindow = require('./controlWindow.js')
 
 function App() {
   const win = require('./createWindow.js')
   const tray = require('./tray.js')
 
-  tray.on('click', () => console.log('open'))
+  const {toggle} = controlWindow(win, tray)
+
+  tray.on('click', toggle)
 }
 
 app.whenReady().then(App)

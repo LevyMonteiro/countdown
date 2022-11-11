@@ -2,7 +2,7 @@
   "name": "countdown",
   "version": "1.0.0",
   "description": "- This is an CountDown page with a pomodoro timer to send a notification when was time to take a break in the study.",
-  "main": "main.js",
+  "main": "electron/main.js",
   "scripts": {
     "start": "electron ."
   },

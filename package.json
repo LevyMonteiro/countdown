@@ -19,5 +19,8 @@
   "homepage": "https://github.com/LevyMonteiro/countdown#readme",
   "devDependencies": {
     "electron": "^21.2.3"
+  },
+  "dependencies": {
+    "menubar": "^9.2.3"
   }
 }

@@ -16,9 +16,4 @@ const emitter = {
     }
 }
 
-emitter.on('click', () => console.log('cliquei'))
-emitter.on('click', () => console.log('cliquei 2'))
-
-emitter.emit('click')
-
 export {emitter}

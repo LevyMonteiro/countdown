@@ -12,6 +12,12 @@ const createWindow = () => {
 
   win.loadFile('index.html')
 
+  win.on('blur', () => {
+    if(win.isVisible()) {
+    win.hide()
+    }
+  })
+
   return win
 }
 

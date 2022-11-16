@@ -1,10 +1,11 @@
 {
-  "name": "countdown",
+  "name": "Pomodoro Timer",
   "version": "1.0.0",
   "description": "- This is an CountDown page with a pomodoro timer to send a notification when was time to take a break in the study.",
   "main": "electron/main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "build": "npx electron-packager . --icon img/tomato-icon.icns --out=packages"
   },
   "repository": {
     "type": "git",
